@@ -1,0 +1,22 @@
+* {
+    text-align: center;
+    background-color: rgba(245, 220, 230, 0.507);
+}
+h2 {
+    color: rgba(214, 19, 19, 0.308);
+}
+tbody {  
+  font-family: Arial, serif;
+}
+table {
+    border-collapse: collapse;
+    border: 3px solid #ae0000;
+    margin: 0 auto;
+}
+thead {
+    background-color: rgb(226, 223, 43);
+}
+.code {
+    font-family: monospace;
+    background-color: rgb(255, 221, 127);
+}

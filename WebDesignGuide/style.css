@@ -1,0 +1,104 @@
+.section {
+    border: 3px solid #FF2400;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.hex-color-section {
+    width: 100%;
+}
+
+.panel {
+    display: inline-block;
+    text-align: center;
+    margin: 15px auto;
+    width: 27%;
+    min-height: 50px;
+}
+
+.crimson-red {
+    background-color: #990000;
+}
+
+.slate-blue {
+    background-color: #6A5ACD;
+}
+
+.orchid-purple {
+    background-color: #B048B5;
+}
+
+.white-chocolate {
+    background-color: #EDE6D6;
+}
+
+.cinnamon {
+    background-color: #C58917;
+}
+
+.rgb {
+    background-color: rgb(255, 0, 102);
+}
+
+.rgba {
+    background-color: rgb(255, 0, 102, 0.64);
+}
+
+.hsl {
+    background-color: hsl(336, 100%, 50%);
+}
+
+.hsla {
+    background-color: hsl(336, 100%, 50%, 0.5);
+}
+.font-panel {
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+}
+
+.font-label {
+    font-size: 25px;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.rubik {
+    font-family: 'Rubik', serif;
+}
+
+.hind {
+    font-family: 'Hind', serif;
+}
+
+.rubik {
+    font-family: 'Rubik', serif;
+}
+
+.style-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.style-panel h2 {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.style-panel p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Times New Roman', sans-serif;
+}
