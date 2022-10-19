@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>Flexbox Example</h1>
+      <ul class="menu">
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#Portfolio">My Portfolio</a></li>
+        <li><a href="#Teammate">My Teammate</a></li>
+      </div>
+    </header>
+    <div class="main-section">
+      <div id="About">
+        <div class="all-header">
+          <h2>A bit about me</h2>
+          <h4>Hi, I am Newbie, currently I am learning how to create a proper, 
+            responsive website by my own</h4>
+        </div>
+      </div>
+    </div>
+    <div id="Portfolio">
+      <div class="flex-list">
+        <h2>My Portfolio</h2>
+        <h4>Below is the list of my Portfolio contents, with the example images
+          for better understanding.</h4> 
+      <div class="flex-items">
+          <div class="flex-item">
+          <img src="/resources/skills.jpg">
+          <span>My skills</span>
+        </div>
+        <div class="flex-item">
+          <img src="/resources/experience.jpg">
+          <span>Past work experience</span>
+        </div>
+        <div class="flex-item">
+          <img src="/resources/achivement.jpg">
+          <span>Achivement</span>
+        </div>
+        <div class="flex-item">
+          <img src="/resources/other.jpg">
+          <span>Other</span>
+        </div>
+      </div>    
+      </div>
+    </div>
+    <div id="Teammate">
+      <div class="flex-list1">
+        <h2>My Teammate</h2>
+      <div class="whole-team">
+        <div class="flex-teammate">
+          <img src="/resources/manager.jpg">
+          <h3>Person Number 1</h3>
+          <p>Project Manager - Leader of our team.</p>
+        </div>
+        <div class="flex-teammate">
+          <img src="/resources/front.jpg">
+          <h3>Person Number 2</h3>
+          <p>Project Designer - Design front-end stuffs.</p>
+        </div>
+        <div class="flex-teammate">
+          <img src="/resources/back.jpg">
+          <h3>Person Number 3</h3>
+          <p>Project Database - Design back-end stuffs.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <br>
+    <div class="contact">
+      <h2>Contact us</h2>
+      <p>If you have any question, or would like to contact us for a possible job,
+        please fill the form below and we will get in touch shortly.</p>
+    <div class="form">
+      <div>
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" placeholder="Newbie" required pattern="[a-zA-Z]+" minlength="2">
+      </div>
+      
+      <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="aeea@gmail.com" required minlength="10">
+      </div>
+      
+      <div>
+          <label for="phone">Telephone: </label>
+          <input type="tel" name="phone" id="phone" placeholder="0412345678" pattern="[0-9]{10}">
+      <br>
+      <input type="submit" value="Submit">
+    </div>
+  </div>
+  </body>
+  <footer>
+    <p>© 2022 Portfolio</p>
+  </footer>  
+</html>

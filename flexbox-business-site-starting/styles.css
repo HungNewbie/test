@@ -1,0 +1,111 @@
+html {
+    font-family: "Fasthand";
+    font-size: 20px;
+    color: #343434;
+    background-color:bisque;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: left;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+li a {
+    color: #000;
+    list-style: none;
+}
+
+ul {
+    text-align: right;
+}
+
+#About {
+    
+    display: flex;
+    background-image: url(/resources/background1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.all-header {
+    display: block;
+    background-color: whitesmoke;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.all-header h2, h4 {
+    margin: 0px;
+}
+
+#Portfolio {
+    margin: auto;
+}
+
+.flex-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-item img {
+    width: 300px;
+    height: 200px;
+    padding: 0px 10px;
+    
+    margin: 5px;
+}
+
+.flex-item span {
+    text-align: center;
+    padding: 10px;
+    min-width: 150px;
+    color: red;
+    font-weight: 500px;
+}
+
+.whole-team {
+    background-image: url(/resources/background2.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-teammate {
+    padding: 12px;
+    flex-basis: 200px;
+    font-weight: bold;
+}
+
+.flex-teammate img {
+    width: 200px;
+    height: 250px;   
+}
+
+.form {
+    text-align: left;
+    border: 1px solid;
+    padding: 10px;
+}
